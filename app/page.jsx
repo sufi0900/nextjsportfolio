@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { client } from "./lib/sanity";
-import Head from "next/head";
 
 async function getData() {
   const query = `*[_type == "post"]`;
@@ -18,14 +17,6 @@ export default async function IndexPage() {
 
   return (
     <>
-      <Head>
-        <title>My Skills - Sufian Mustafa</title>
-        <meta
-          name="description"
-          content="Explore Sufian Mustafa's proficiency in various technologies and tools. Discover his expertise in web development, including ReactJS, Node.js, HTML5, CSS3, and more."
-        />
-        <link rel="canonical" href="https://sufianmustafa.com/#Skill" />
-      </Head>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">

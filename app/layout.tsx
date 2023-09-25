@@ -1,4 +1,4 @@
-// import Navbar from "./Navbar2";
+import Navbar2 from "./Navbar2";
 import Navbar from "./components/Navbar";
 import { Providers } from "./components/Providers";
 import "./globals.css";
@@ -17,11 +17,9 @@ export default function RootLayout({
       <body
         className={` ${inter.className} bg-white text-black dark:bg-gray-900 dark:selection:bg-gray-900 dark:text-white h-full selection:bg-gray-50`}
       >
-        {" "}
         <ThemeProvider theme={theme}>
           <CssBaseline />
-
-          <Navbar />
+          <Navbar2 />
           <Providers>
             <main className=" mx-auto px-4 sm:px-6 lg:px-8">{children}</main>
           </Providers>
