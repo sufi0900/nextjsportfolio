@@ -320,8 +320,7 @@ color:black; }
                 // data-aos-delay="200"
                 // data-aos-duration="700"
               >
-                <ImageGallery />
-
+                {/* <ImageGallery /> */}
                 <div
                   className="Homeresume animadte__animated animate__backInRight About3"
                   style={{
@@ -346,6 +345,7 @@ color:black; }
                   &nbsp;
                 </div>
                 <ListAboutMe />
+
                 <br />
                 <div
                   className="Homeresume animadte__animated animate__backInRight About3"
