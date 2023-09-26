@@ -1,10 +1,13 @@
+"use client";
 import React from "react";
+
 import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
 import FileDownloadOutlinedIcon from "@mui/icons-material/FileDownloadOutlined";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import "animate.css";
 import Grid from "@mui/material/Grid";
 
+// import HomeComp from "./HomeComponents";
 import MouseOutlinedIcon from "@mui/icons-material/MouseOutlined";
 
 import ArrowForwardOutlinedIcon from "@mui/icons-material/ArrowForwardOutlined";
@@ -14,14 +17,9 @@ import SteamHomePage from "./SteamHomePage";
 // import { Helmet } from "react-helmet";
 import SvgHomePage from "./SvgHomePage";
 
-// Dynamically import components that you want to code-split
-// const AsyncALLComponents = lazy(() => import("./HomePage"));
-// const AsyncSvgHomePage = lazy(() => import("./SvgHome"));
-
 const Home = () => {
-  const handleDone = () => {
-    console.log(`Done after 5 loops!`);
-  };
+  const ReactRotatingText = require("react-rotating-text");
+
   const button = {
     fontSize: "58px",
     color: "rgba(249, 43, 208, 0.696)",
@@ -202,7 +200,7 @@ const Home = () => {
                     <div className="animate__animated animate__backInLeft Animateiv6">
                       <div>
                         <p>
-                          {/* <ReactRota
+                          <ReactRotatingText
                             items={[
                               " React Bootstrap",
 
@@ -220,7 +218,7 @@ const Home = () => {
 
                               " FramerMotion",
                             ]}
-                          /> */}
+                          />
                         </p>
                       </div>
                     </div>

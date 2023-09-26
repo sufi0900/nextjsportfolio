@@ -34,3 +34,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# "site": "nextjs-11d58",
+# firebase deploy --only hosting:nextjs-11d58

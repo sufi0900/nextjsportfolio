@@ -1,8 +1,5 @@
 import React from "react";
 
-import Grid from "@mui/material/Grid";
-import AOS from "aos";
-
 import "animate.css";
 import "aos/dist/aos.css";
 const SvgHomePage = () => {
@@ -21,9 +18,10 @@ const SvgHomePage = () => {
 
   return (
     <div
-      className="svglines"
+      className="svglines "
       style={{
         zIndex: "-1",
+        opacity: "0.5",
         position: "relative",
         marginBottom: "200px",
       }}
@@ -50,7 +48,7 @@ const SvgHomePage = () => {
               ease: "easeInOut",
               delay: 1,
             }}
-            className="motionPath"
+            className="motionPath animate__animated animate__backInDown Animateiv7"
           ></path>
         </g>
         <defs>
@@ -79,7 +77,7 @@ const SvgHomePage = () => {
                 ease: "easeInOut",
                 delay: 1.5,
               }}
-              className="motionPath"
+              className="motionPath animate__animated animate__backInUp Animateiv8"
             ></path>
           </g>
           <defs>
