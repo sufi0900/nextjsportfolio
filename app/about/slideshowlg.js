@@ -7,16 +7,15 @@ import ArrowBackIosNewOutlinedIcon from "@mui/icons-material/ArrowBackIosNewOutl
 import ArrowForwardIosOutlinedIcon from "@mui/icons-material/ArrowForwardIosOutlined";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 import ArrowLeftIcon from "@mui/icons-material/ArrowLeft";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import Images from "./Images";
-import "react-lazy-load-image-component/src/effects/blur.css"; // Import optional CSS for image blur effect
 
 import AOS from "aos";
 
-import { Link } from "react-router-dom";
 import { useState } from "react";
+import Link from "next/link";
 
 function CarouselFadeExample() {
   AOS.init();
@@ -49,9 +48,9 @@ function CarouselFadeExample() {
               backgroundColor: "red",
               borderRadius: "29px",
               position: "relative",
-              right: "50px",
+              right: "20px",
               bottom: "20px",
-              zIndex: "99",
+              zIndex: "-1",
             }}
           />
         </span>
@@ -111,7 +110,7 @@ function CarouselFadeExample() {
               onMouseLeave={onMouseLeave}
             >
               <Link
-                to="/AboutMySite"
+                href="/AboutMySite"
                 style={{ textDecoration: "none", color: "black" }}
               >
                 <h3 style={{ overflow: "hidden" }}>
@@ -938,7 +937,7 @@ function CarouselFadeExample() {
                     >
                       <div style={{ height: "100%" }}>
                         <Link
-                          to="/AboutMySite"
+                          href="/AboutMySite"
                           style={{
                             textDecoration: "none",
                           }}
@@ -967,7 +966,7 @@ function CarouselFadeExample() {
         </div>
       </div>
       <Link
-        to="/AboutMySite"
+        href="/AboutMySite"
         style={{
           textDecoration: "none",
           color: "black",

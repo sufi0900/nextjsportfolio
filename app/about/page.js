@@ -1,11 +1,10 @@
 import React from "react";
 import AOS from "aos";
 import "animate.css";
-
+import ResponsiveSHow from "./responsiveshow";
 import AnimatedDiv from "./AnimateDIv";
 import FileDownloadDoneOutlinedIcon from "@mui/icons-material/FileDownloadDoneOutlined";
-// import Paper from "@mui/material/Paper";
-// import { styled } from "@mui/material/styles";
+import SlideShow from "./slideshowlg";
 import FileDownloadOutlinedIcon from "@mui/icons-material/FileDownloadOutlined";
 import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
 // import Resume from "./Resume/sufi.pdf";
@@ -400,6 +399,8 @@ color:black; }
           </div>
         </Grid>
       </Grid>
+      <ResponsiveSHow />
+      <SlideShow />
     </div>
   );
 };

@@ -34,6 +34,7 @@
     "react-bootstrap": "^2.8.0",
     "react-dom": "18.2.0",
     "react-helmet": "^6.1.0",
+    "react-html5video": "^2.5.1",
     "react-loader-spinner": "^5.4.5",
     "react-rotating-text": "^1.4.1",
     "react-toastify": "^9.1.3",
