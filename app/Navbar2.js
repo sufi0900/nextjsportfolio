@@ -239,7 +239,7 @@ function ResponsiveAppBar(props) {
                         value="three"
                         label={
                           <span>
-                            <Link href="/blog">
+                            <Link href="/post">
                               {" "}
                               <AddReactionIcon /> Blogs
                             </Link>
@@ -251,7 +251,9 @@ function ResponsiveAppBar(props) {
                         value="three"
                         label={
                           <span>
-                            <ContactMailIcon /> Contact
+                            <Link href="/contact">
+                              <ContactMailIcon /> Contact
+                            </Link>
                           </span>
                         }
                         className="Tab6 animate__animated animate__zoomIn"
