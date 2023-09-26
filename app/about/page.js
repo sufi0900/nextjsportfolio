@@ -16,7 +16,7 @@ import QuizIcon from "@mui/icons-material/Quiz";
 import Grid from "@mui/material/Grid";
 // import "animate.css";
 
-import ListAboutMe from "./ListABoutMe";
+// import ListAboutMe from "./ListABoutMe";
 // import List from "@mui/material/List";
 // import ListItem from "@mui/material/ListItem";
 // import ProgressBar from "react-bootstrap/ProgressBar";
@@ -320,7 +320,7 @@ color:black; }
                 // data-aos-delay="200"
                 // data-aos-duration="700"
               >
-                {/* <ImageGallery /> */}
+                <ImageGallery />
                 <div
                   className="Homeresume animadte__animated animate__backInRight About3"
                   style={{
@@ -344,7 +344,7 @@ color:black; }
                   </a>
                   &nbsp;
                 </div>
-                <ListAboutMe />
+                {/* <ListAboutMe /> */}
 
                 <br />
                 <div

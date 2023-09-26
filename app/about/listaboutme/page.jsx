@@ -1,5 +1,4 @@
-"use client";
-import React, { useState } from "react";
+import * as React from "react";
 
 import Box from "@mui/material/Box";
 import List from "@mui/material/List";
@@ -24,7 +23,7 @@ import { ListItemButton } from "@mui/material";
 import AOS from "aos";
 import "aos/dist/aos.css";
 export default function InteractiveList() {
-  const [secondary, setSecondary] = useState(false);
+  const [secondary, setSecondary] = React.useState(false);
   AOS.init();
   return (
     <Box sx={{ flexGrow: 1, overflow: "auto" }}>
@@ -92,7 +91,7 @@ export default function InteractiveList() {
                 </ListItemButton>
               </List>
             </Grid>
-            {/* <Grid item lg={12} sm={12}>
+            <Grid item lg={12} sm={12}>
               <List>
                 <ListItemButton>
                   <ListItemIcon className="ListItemText">
@@ -127,8 +126,8 @@ export default function InteractiveList() {
                   />
                 </ListItemButton>
               </List>
-            </Grid> */}
-            {/* <Grid item lg={12} sm={12}>
+            </Grid>
+            <Grid item lg={12} sm={12}>
               <List sx={{ overflow: "auto" }}>
                 <ListItemButton>
                   <ListItemIcon className="ListItemText">
@@ -185,7 +184,7 @@ export default function InteractiveList() {
                   />
                 </ListItemButton>
               </List>
-            </Grid> */}
+            </Grid>
           </Box>
         </Grid>
       </Grid>
