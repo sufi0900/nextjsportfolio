@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 
 import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
@@ -18,7 +17,7 @@ import SteamHomePage from "./SteamHomePage";
 import SvgHomePage from "./SvgHomePage";
 
 const Home = () => {
-  const ReactRotatingText = require("react-rotating-text");
+  // const ReactRotatingText = require("react-rotating-text");
 
   const button = {
     fontSize: "58px",
@@ -200,7 +199,7 @@ const Home = () => {
                     <div className="animate__animated animate__backInLeft Animateiv6">
                       <div>
                         <p>
-                          <ReactRotatingText
+                          {/* <ReactRotatingText
                             items={[
                               " React Bootstrap",
 
@@ -218,7 +217,7 @@ const Home = () => {
 
                               " FramerMotion",
                             ]}
-                          />
+                          /> */}
                         </p>
                       </div>
                     </div>
